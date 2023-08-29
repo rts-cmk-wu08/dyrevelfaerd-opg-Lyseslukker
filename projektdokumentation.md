@@ -61,3 +61,6 @@ Eksempel: <br/>
 ``    const replacedText = text.replace(/\n/g, '<br>') `` <br/>
 ``    return <p dangerouslySetInnerHTML={{__html: replacedText}} /> `` <br/>
 ``} ``
+
+
+#### test commit lav om på bruger upload 
