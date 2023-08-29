@@ -18,12 +18,12 @@ function App() {
   });
 
   useEffect(() => {
-    const token = Cookies.get('token')
-    const user = Cookies.get('user')
-    if (token && user) {
+    const adminToken = Cookies.get('token')
+    const adminUser = Cookies.get('user')
+    if (adminToken && adminUser) {
       setUserLogin({
-        user: user,
-        token: token
+        user: adminUser,
+        token: adminToken
       })
     }
     else {
@@ -32,9 +32,6 @@ function App() {
         token: false
       })
     }
-
-    // console.log(typeof userLogin.user)
-    // console.log(typeof userLogin.token)
   }, []);
 
   return (

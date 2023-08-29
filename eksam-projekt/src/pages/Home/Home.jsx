@@ -94,7 +94,6 @@ export default function Home() {
         }
         else {
             alert("Email is not correct, please enter a valid email \nExample: example@domain.com")
-            
         }
 
         
