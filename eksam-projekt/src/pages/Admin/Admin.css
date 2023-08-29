@@ -1,0 +1,62 @@
+/* ADMIN BTN */
+.admin__btn {
+    height: 2.5vw;
+    width: 5vw;
+    background-color: white;
+    border: solid 2px var(--blue-button);
+    border-radius: 0.25rem;
+}
+/* ADMIN DELETE BTN */
+.admin__delete__btn {
+    height: 2.5vw;
+    width: 5vw;
+    background-color: white;
+    border: solid 2px red;
+    border-radius: 0.25rem;
+}
+
+
+
+
+.admin {
+    padding: 5vw 10vw;
+    display: grid;
+    justify-items: center;
+
+    
+    > .admin__wrapper {
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 2.5vw;
+    }
+}
+
+
+/* DYR */
+.admin__dyr {
+    display: grid;
+    row-gap: 1.5vw;
+    padding: 5vw 0;
+
+    > .dyrAdmin__card {
+        width: 50vw;
+        height: 20vw;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2.5vw;
+        border: solid 1px black;
+        
+        > .dyrAdmin__card__img {
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+
+
+/* SUBS */
+.admin__subs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

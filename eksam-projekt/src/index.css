@@ -1,0 +1,16 @@
+:root {
+    --blue-font: #2558AB;
+    --blue-background: #E2EDFF;
+    --blue-button: #017AFF;
+    --blue-bot-link: #4E86D4;
+    --gray: #F7F7F7;
+    --gray-dark: #8D8D8D;
+    /* --banner-height: 30vh; */
+
+    /* TABLET */
+    /* --tablet-banner-height: 20vh; */
+
+
+    /* MOBILE */
+    /* --mobile-banner-height: 15vh; */
+}
