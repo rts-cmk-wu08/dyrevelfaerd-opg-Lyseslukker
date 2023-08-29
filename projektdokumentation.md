@@ -62,5 +62,20 @@ Eksempel: <br/>
 ``    return <p dangerouslySetInnerHTML={{__html: replacedText}} /> `` <br/>
 ``} ``
 
+#### Fejltagelser
+##### 1
+Af en eller anden årsag troede jeg at projektet skulle laves i en seperat repo, og fandt først ud af at det <br/>
+skulle være i opgave repo'en<br/>
+Men så ved jeg det til når det virkelig gælder.<br/>
+##### 2
+For nogle måneder siden bedte Git mig om brugernavn og email, hvilket jeg på daværende tidspunkt tænkte var noget fis at spørge om <br/>
+Så jeg skrev "johndoe@example.com" som mail og "johndoe" som navn, <br/>
+Det resulterede så i at mine pushes blev pushet af en anden bruger ved navn "Faten848", som åbenbart har den mail og brugernavn <br/>
+Da jeg indså fejlen, var det heldigvis let og opdatere, men knap så nemt at "redo" på github.<br/>
+Så igen godt at opdage til prøve eksamen, og ikke til den afgørende.<br/>
+<br/>
+Så alt i alt er jeg taknemmelig for vi havde en prøve eksamen før den afgørende eksamen.
+
+
 
 #### test commit lav om på bruger upload 
