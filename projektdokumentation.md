@@ -8,6 +8,7 @@
 admin credentials: <br/>
 user admin. <br/>
 password 1234. <br/>
+URL: http://localhost:5173/
 
 
 #### Vurdering af egen indsats:
